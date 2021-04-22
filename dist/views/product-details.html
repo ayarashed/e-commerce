@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>The Furnish</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="../css/vendor/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/minifiedstyle/ltrstyle.min.css" id="ink" />
+  <!--<link rel="stylesheet" href="css/minifiedstyle/rtlstyle.min.css" id="ink">-->
+</head>
+
+<body>
+  <!-----------------------------header----------------------->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="contain">
+        <div class="row">
+          <div class="col-md-2 d-none d-lg-block">
+            <a class="navbar-brand" href="../index.html">The Furnish</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-md-10 col-12">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">shop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Collection</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Log In</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn cart" data-bs-toggle="modal" data-bs-target="#cart-modal">
+                    <i class="fas fa-shopping-cart"></i>
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="cart-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            My Cart
+                          </h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="cart-item">
+                            <h5>sofa</h5>
+                            <span>price : $9999</span>
+                          </div>
+                          <div class="cart-item__total">
+                            <span>total</span>
+                            <span>$9999</span>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn" data-bs-dismiss="modal">
+                            Checkout
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--------------------------------------------end of header-------------->
+  <div class="product-detail">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-7 col-lg-6 col-12 product-detail__bg">
+          <div class="product-detail__slider">
+            <div class="contain">
+              <nav aria-label="breadcrumb" class="product-detail__breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Collection</a></li>
+                  <li class="breadcrumb-item"><a href="#">NewArrivals</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Leifarne
+                  </li>
+                </ol>
+              </nav>
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="../images/img/PNGPIX-COM-Chair-PNG-Transparent-Image.png" class="example" alt="slide 1" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../images/img/PNGPIX-COM-Chair-PNG-Transparent-Image.png" alt="slide 2" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../images/img/PNGPIX-COM-Chair-PNG-Transparent-Image.png" alt="slide 3" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="../images/img/PNGPIX-COM-Chair-PNG-Transparent-Image.png" alt="slide 4" />
+                  </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next swiper-button-black ">
+                  <i class="fas fa-angle-up"></i>
+                </div>
+                <div class="swiper-button-prev swiper-button-black">
+                  <i class="fas fa-angle-down"></i>
+                </div>
+
+                <!------------------------------------------------------>
+              </div>
+              <div class="product-detail__slider__info d-none d-lg-block">
+                <div class="row">
+                  <div class="col-6">
+                    <span>Dining Chair</span>
+                    <h3>Leifarne</h3>
+                    <span>$180</span>
+                  </div>
+                  <div class="col-6">
+                    <button class="btn">BUY</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-----------------------end of slider image----->
+        <div class="col-xl-5 col-lg-6 col-12">
+          <div class="product-details__info">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xl-9 col-lg-10 col-12">
+                  <div>
+                    <h5>Intro</h5>
+                    <p>
+                      Simple, timeless design that’s still going strong after
+                      40 years in our stores. It’s loved by all ages so we
+                      made a grown-up size and a children’s size.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xl-9 col-lg-10 col-12">
+                  <h3>Product Information</h3>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Dimensions</th>
+                        <td>52 x 50 x 88 cm.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Materials</th>
+                        <td>
+                          Polypropylene plastic<br />
+                          Aluminium<br />
+                          Solid birch
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Good to know</th>
+                        <td colspan="2">
+                          Wipe clean with a cloth dampened in a mild cleaner.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-xl-11 col-lg-10 col-12">
+                  <div class="product-details__icon">
+                    <div class="row">
+                      <div class="col-10">
+                        <img src="../images/TableFull1.webp" class="w-100" height="120px" />
+                      </div>
+                      <div class="col-1">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 d-block d-lg-none">
+                  <div class="product-detail__checkout">
+                    <button class="btn"> Add To Card</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!------------------------->
+        </div>
+      </div>
+    </div>
+  </div><!------end product setails------->
+  <script src="../scripts/MinifiedJs/scripts.min.js"></script>
+  <script src="../scripts/vendor/okzoom.js"></script>
+  <script src="../scripts/vendor/swiper-bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+    $('.swiper-slide img').okzoom({
+      width: 200,
+      height: 200,
+      round: false,
+      background: "#add4ff",
+      backgroundRepeat: "no-repeat",
+      shadow	:	"0 0 5px #000",
+      cursor: "crosshair"
+    });
+  });
+  </script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      direction: "vertical",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.all-product{
+    padding-top: 30px;
+    .all-product__filter{
+        text-align: center;
+        border-bottom: solid 2px #f0f0f0;
+        h3{
+            font-weight: 400;
+            font-size: 25px;
+            span{
+                font-size: 16px;
+            }
+        }
+    }
+    .heading{
+        padding: 20px 0px;
+        h3{
+            text-align: center;
+            span{
+                font-size: 30px;
+                display: inline-block;
+                &:first-child{
+                    font-style: italic;
+                    padding-right: 10px;
+                }
+                &:last-child{
+                    color: #969899;
+                }
+            }
+        }
+    }
+}
+/**********************************************************************/

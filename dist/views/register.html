@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>The Furnish</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/minifiedstyle/ltrstyle.min.css" id="ink">
+    <!--<link rel="stylesheet" href="css/minifiedstyle/rtlstyle.min.css" id="ink">-->
+</head>
+
+<body>
+    <!----------------------------------register form----------------------------->
+    <div class="register-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb" class="product-detail__breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Create Account</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="col-12">
+                    <div class="register-form__heading">
+                        <h3>CREATE AN ACCOUNT</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <form class="row g-3" id="registerform">
+                        <div class="col-md-8 col-12">
+                            
+                          <label for="firstname" class="form-label">First Name</label>
+                            <input type="text" name="fname" class="form-control" placeholder="First name" aria-label="First name" id="firstname">
+                          </div>
+                          <div class="col-md-8 col-12">
+                              
+                          <label for="lastname" class="form-label">Last Name</label>
+                            <input type="text" name="lname" class="form-control" placeholder="Last name" aria-label="Last name" id="lastname">
+                          </div>
+                        <div class="col-md-8">
+                          <label for="inputEmail4" class="form-label">Your Email Address <em>*</em></label>
+                          <input type="email" name="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-8">
+                            <label for="inputphone" class="form-label">Phone <em>*</em></label>
+                            <input type="phone" name="phone" class="form-control" id="inputphone">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="birthday">Birth Date </label>
+                            <input type="date" id="birthday" name="birthday">
+                        </div>
+                        <div class="col-md-8">
+                          <label for="inputPassword4" class="form-label">Password <em>*</em></label>
+                          <input type="password" name="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-8">
+                          <button type="submit" class="btn ">Create New Account</button>
+                        </div>
+                      </form>
+                </div>
+                <!--------------------------->
+                <div class="col-md-6 col-12">
+                    <form id="siginform">
+                        <div class="row mb-3">
+                          <label for="inputEmail" class="col-12 col-form-label">Email</label>
+                          <div class="col-md-8 col-12">
+                            <input type="email" name="logemail" class="form-control" id="inputEmail">
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <label for="inputPassword" class="col-12 col-form-label">Password</label>
+                          <div class="col-md-8 col-12">
+                            <input type="password" name="logpassword" class="form-control" id="inputPassword">
+                          </div>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <div id="form_remebercheck">
+                                <input type="checkbox" class="custom-control-input" id="customCheck">
+                                <label class="custom-control-label" for="customCheck">Remember Me</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary signin">Sign in</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/MinifiedJs/scripts.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+footer{
+    background-color: black;
+    color: white;
+    padding: 80px 0px 30px 0px;
+    h5{
+        margin-bottom: 30px;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+    .btn{
+        padding-left: 45px;
+        width: 100%;
+        color: white;
+        font-size: 14px;
+        font-weight: 600;
+        &:hover{
+            color: white;
+        }
+    }
+    form{
+        margin-bottom: 25px;
+        .form-control , .submit{
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+            padding: 9px 18px 11px;
+            text-transform: uppercase;
+            margin-right: 5px;
+            border: 0px;
+            border-style: none;
+            border: none;
+            border-radius: 0px;
+            font-size: 13px;
+        }
+        .submit{
+            padding: 10px 15px 11px;
+            font-weight: 500;
+            min-width: 150px;
+            max-width: 150px;
+            font-size: 13px;
+            border: 1px solid white;
+            transition: all 0.2s ease-in-out;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+    
+    ul{
+        li{
+            list-style: none;
+            a{
+                color: white;
+                text-decoration: none;
+                display: inline-block;
+                padding: 8px 0;
+                line-height: 22px;
+                position: relative;
+                font-size: 13px;
+                font-weight: 600;
+                &::before{
+                    position: absolute;
+                    left: 0;
+                    width: 0;
+                    bottom: -2px;
+                    height: 1px;
+                    content: '';
+                    display: block;
+                    transition: width 0.3s ease;
+                    visibility: hidden;
+                    background-color: white;
+                }
+                &:hover{
+                    color: white;
+                    &::before{
+                        width: 100%;
+                        visibility: visible;
+                    }
+                }
+                
+            }
+        }
+    }
+    .footer__icon{
+        margin: 70px 0px 50px 0px;
+        a{
+            color:white;
+            font-size: 25px;
+            margin: 16px;
+        }
+    }
+    .footer__copyright{
+        text-align: left;
+        font-size: 14px;
+    }
+}

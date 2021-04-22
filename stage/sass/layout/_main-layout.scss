@@ -1,0 +1,32 @@
+header{
+    border-bottom: 1px solid #f0f0f0;
+    .navbar{
+        .navbar-nav{
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+        }
+        .dropdown-menu{
+            left: -40px;
+            margin-top: 0.5rem;
+        }
+        @media (max-width : 768px) {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f5f8fa;
+            z-index: 999999999999999999999;
+            .navbar-toggler{
+                display: none;
+            }
+            .navbar-collapse{
+                display: block;
+            }
+            .navbar-nav{
+                justify-content: space-around;
+                flex-direction: row;
+            }
+        }
+    }
+}
