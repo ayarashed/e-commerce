@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+      <title>The Furnish</title>
+      <!-- Font Awesome -->
+      <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <!-- Main Style -->
+      <link rel="stylesheet" href="../css/minifiedstyle/ltrstyle.min.css" id="ink" />
+
+      <!--<link rel="stylesheet" href="css/minifiedstyle/rtlstyle.min.css" id="ink">-->
+   </head>
+
+   <body>
+
+      <!-----------------------------header----------------------->
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+               <div class="col-md-2 d-none d-lg-block">
+                  <a class="navbar-brand" href="../index.html">The Furnish</a>
+               </div>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="col-md-10 col-12">
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                           <a class="nav-link active" aria-current="page" href="#">shop</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#">Collection</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="views/register.html">Log In</a>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                           <!-- Button trigger modal -->
+                           <button type="button" class="btn cart" data-bs-toggle="modal" data-bs-target="#cart-modal">
+                              <i class="fas fa-shopping-cart"></i>
+                           </button>
+
+                           <!-- Modal -->
+                           <div class="modal fade" id="cart-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                              aria-hidden="true">
+                              <div class="modal-dialog">
+                                 <div class="modal-content">
+                                    <div class="modal-header">
+                                       <h5 class="modal-title" id="exampleModalLabel">
+                                          My Cart
+                                       </h5>
+                                       <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                          aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <div class="cart-item">
+                                          <h5>sofa</h5>
+                                          <span>price : $9999</span>
+                                       </div>
+                                       <div class="cart-item__total">
+                                          <span>total</span>
+                                          <span>$9999</span>
+                                       </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                       <button type="button" class="btn" data-bs-dismiss="modal"
+                                          style="background-color: #000dae; color: wheat">
+                                          Checkout
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-------------end of header-------------->
+
+      <!-------------start of products-------------->
+      <div class="products pb-5">
+         <div class="container">
+            <div class="row justify-contnet-center">
+               <div class="col-12">
+                  <form class="search-form my-4">
+                     <div class="input-control">
+                        <input type="text" class="search-input" placeholder="search now">
+                        <div class="search-icon">
+                           <i class="fas fa-search"></i>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+
+            <div class="products-main-slider my-3">
+               <ul class="products-list">
+                  <li class="products-list-item">
+                     <a href="" class="products-list-link">Accesso</a>
+                  </li>
+                  <li class="products-list-item">
+                     <a href="" class="products-list-link">table</a>
+                  </li>
+                  <li class="products-list-item">
+                     <a href="" class="products-list-link">cupboard</a>
+                  </li>
+                  <li class="products-list-item">
+                     <a href="" class="products-list-link active">chair</a>
+                  </li>
+               </ul>
+
+               <div class="slider-wrapper">
+                  <div class="main-slider owl-carousel owl-theme">
+                     <div class="slider-item">
+                        <img src="../images/img/Untitled-1.png" alt="" class="">
+                        <div class="slider-item-icon">
+                           <i class="far fa-heart"></i>
+                        </div>
+                        <div class="slider-item-details d-flex justify-content-between px-3">
+                           <span class="slider-item-name">chair</span>
+                           <span class="slider-item-price">$1600</span>
+                        </div>
+                     </div>
+                     <div class="slider-item">
+                        <img src="../images/img/Untitled-1.png" alt="" class="">
+                        <div class="slider-item-icon">
+                           <i class="far fa-heart"></i>
+                        </div>
+                        <div class="slider-item-details d-flex justify-content-between px-3">
+                           <span class="slider-item-name">chair</span>
+                           <span class="slider-item-price">$1600</span>
+                        </div>
+                     </div>
+                     <div class="slider-item">
+                        <img src="../images/img/Untitled-1.png" alt="" class="">
+                        <div class="slider-item-icon">
+                           <i class="far fa-heart"></i>
+                        </div>
+                        <div class="slider-item-details d-flex justify-content-between px-3">
+                           <span class="slider-item-name">chair</span>
+                           <span class="slider-item-price">$1600</span>
+                        </div>
+                     </div>
+                     <div class="slider-item">
+                        <img src="../images/img/Untitled-1.png" alt="" class="">
+                        <div class="slider-item-icon">
+                           <i class="far fa-heart"></i>
+                        </div>
+                        <div class="slider-item-details d-flex justify-content-between px-3">
+                           <span class="slider-item-name">chair</span>
+                           <span class="slider-item-price">$1600</span>
+                        </div>
+                     </div>
+                     <div class="slider-item">
+                        <img src="../images/img/Untitled-1.png" alt="" class="">
+                        <div class="slider-item-icon">
+                           <i class="far fa-heart"></i>
+                        </div>
+                        <div class="slider-item-details d-flex justify-content-between px-3">
+                           <span class="slider-item-name">chair</span>
+                           <span class="slider-item-price">$1600</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-------------end of products-------------->
+
+      <!--------------- start of footer --------------->
+      <footer>
+         <div class="container text-center">
+            <div class="row">
+               <div class="col-12">
+                  <h5>A Culture Of Furniture</h5>
+               </div>
+               <div class="col-12">
+                  <form class="row">
+                     <div class="col-md-6 col-12 m-auto">
+                        <div class="row">
+                           <div class="col-md-8 col-12">
+                              <input type="text" class="form-control" id="input"
+                                 placeholder="subscribe to our newsletter" />
+                           </div>
+                           <div class="col-md-4 col-12">
+                              <input type="submit" class="mb-3 submit" value="Submit" />
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-12">
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                     <div class="row">
+                        <div class="col-md-3 col-12">
+                           <div class="know-us">
+                              <h2 class="know-us__header" id="flush-headingOne">
+                                 <button class="btn" type="button">
+                                    GET TO KNOW US
+                                 </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="know-us__according">
+                                 <div class="know-us__body">
+                                    <ul>
+                                       <li>
+                                          <a href="#">About Us</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">How To Shop</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Shop</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                           <div class="help">
+                              <h2 class="help__header" id="flush-headingTwo">
+                                 <button class="btn" type="button">
+                                    LET US HELP YOU
+                                 </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="help__according">
+                                 <div class="help__body">
+                                    <ul>
+                                       <li>
+                                          <a href="#">Contact Us</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Delivery</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Payment</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                           <div class="policy">
+                              <h2 class="policy__header" id="flush-headingThree">
+                                 <button class="btn" type="button">
+                                    POLICIES
+                                 </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="policy__according">
+                                 <div class="policy__body">
+                                    <ul>
+                                       <li>
+                                          <a href="#">Terms And Policies</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">cookies Policy</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Privacy Policy</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-3 col-12">
+                           <div class="helpful">
+                              <h2 class="helpful__header" id="flush-headingFour">
+                                 <button class="btn" type="button">
+                                    HELPFUL LINKS
+                                 </button>
+                              </h2>
+                              <div id="flush-collapseFour" class="helpful__according">
+                                 <div class="helpful__body">
+                                    <ul>
+                                       <li>
+                                          <a href="#">Careers</a>
+                                       </li>
+                                       <li>
+                                          <a href="#">Gifts Card</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <div class="footer__icon text-center">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="col-12">
+               <div class="footer__copyright">
+                  <span>© MITCHA 2020. All Rights Reserved.</span>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!--------------- end of footer --------------->
+
+
+      <script src="../scripts/MinifiedJs/scripts.min.js"></script>
+   </body>
+
+</html>
